@@ -96,18 +96,37 @@ content:
           - Mentored engineering teams on best practices in automation and E2E testing.
           - Integrated K6 performance testing within CI pipelines.
       - layout: left
-        title: Invenco Pty Ltd.
-        link: https://www.invenco.com
-        sub_title: Lead Automation Engineer
-        caption: March 2024 – Present
+        title: PEXA
+        link: https://www.pexa.com.au
+        sub_title: Test Lead – Member Hub
+        caption: January 2019 – February 2024
         quote: >
-          Driving quality-first testing culture with robust automation solutions and strategic planning.
+          Spearheaded automation and testing strategies enhancing integration across platforms.
         description: |
-          - Established streamlined testing processes significantly reducing testing duration.
-          - Collaborated closely with leadership to define precise testing requirements.
-          - Led the development of automated test suites enhancing product reliability.
-          - Mentored engineering teams on best practices in automation and E2E testing.
-          - Integrated K6 performance testing within CI pipelines.
+          - Developed Playwright-based frameworks for web and API automation.
+          - Created comprehensive Splunk dashboards for enhanced monitoring.
+          - Championed shift-left testing practices and proactive API automation.
+      - layout: left
+        title: Myer
+        link: https://www.myer.com.au
+        sub_title: Senior Test Automation Engineer
+        caption: May 2016 – February 2018
+        quote: >
+          Built robust automation frameworks ensuring comprehensive web and mobile coverage.
+        description: |
+          - Designed frameworks using BDD, Selenium, Ruby, and Appium.
+          - Integrated test suites within CI/CD pipelines for continuous reliability.
+      - layout: left
+        title: Outware Mobile
+        sub_title: Senior Test Analyst
+        caption: May 2014 – April 2016
+        quote: >
+          Delivered impactful mobile testing and automation solutions across various prominent clients.
+        description: |
+          - Conducted comprehensive testing for major clients including Telstra, NAB, and AFL.
+          - Automated mobile apps testing for Android and iOS using Appium.
+          - Tested backend services and middleware using JMeter.
+          - Integrated automation results with Zephyr for enhanced traceability.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
