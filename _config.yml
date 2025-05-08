@@ -84,7 +84,7 @@ content:
     content:
       - layout: left
         title: Invenco Pty Ltd.
-        link: https://www.invenco.com
+        link: https://www.invenco.net
         sub_title: Lead Automation Engineer
         caption: March 2024 – Present
         quote: >
@@ -95,9 +95,6 @@ content:
           - Led the development of automated test suites enhancing product reliability.
           - Mentored engineering teams on best practices in automation and E2E testing.
           - Integrated K6 performance testing within CI pipelines.
-  - title:
-    layout: list
-    content:
       - layout: left
         title: Invenco Pty Ltd.
         link: https://www.invenco.com
