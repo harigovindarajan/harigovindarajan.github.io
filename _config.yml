@@ -1,3 +1,4 @@
+---
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
@@ -14,7 +15,7 @@ website: www.github.com/harigovindarajan
 darkmode: false
 
 # Social links
-github_username:  harigovindarajan
+github_username: harigovindarajan
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -44,11 +45,11 @@ linkedin_username: harigovindarajan
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-Hi, my name's Hari and I'm a lead automation engineer with over 18 years of experience in automation and functional testing. I've specialized in testing both mobile and web applications across various industries.
+  Hi, my name's Hari and I'm a lead automation engineer with over 18 years of experience in automation and functional testing. I've specialized in testing both mobile and web applications across various industries.
 
-# As well as leading test teams, I also have experience collaborating on system integration and ensuring quality across complex software projects. Over the years, I've worked at a number of companies, developing strong teamwork, leadership, and problem-solving skills.
+  # As well as leading test teams, I also have experience collaborating on system integration and ensuring quality across complex software projects. Over the years, I've worked at a number of companies, developing strong teamwork, leadership, and problem-solving skills.
 
-I am most skilled in: Automation Testing, Functional Testing, and Mobile & Web Applications
+  I am most skilled in: Automation Testing, Functional Testing, and Mobile & Web Applications
 
 content:
   - title: Projects
@@ -78,89 +79,6 @@ content:
         description: |
           Designed and implemented a scalable performance testing solution using K6, integrated directly into the CI pipeline, enabling continuous monitoring and optimization of system performance metrics.
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Invenco Pty Ltd.
-        link: https://www.invenco.com
-        sub_title: Lead Automation Engineer
-        caption: March 2024 – Present
-        quote: >
-          Driving quality-first testing culture with robust automation solutions and strategic planning.
-        description: |
-          - Established streamlined testing processes significantly reducing testing duration.
-          - Collaborated closely with leadership to define precise testing requirements.
-          - Led the development of automated test suites enhancing product reliability.
-          - Mentored engineering teams on best practices in automation and E2E testing.
-          - Integrated K6 performance testing within CI pipelines.
-
-      - layout: left
-        title: PEXA
-        link: https://www.pexa.com.au
-        sub_title: Test Lead – Member Hub
-        caption: January 2019 – February 2024
-        quote: >
-          Spearheaded automation and testing strategies enhancing integration across platforms.
-        description: |
-          - Developed Playwright-based frameworks for web and API automation.
-          - Created comprehensive Splunk dashboards for enhanced monitoring.
-          - Championed shift-left testing practices and proactive API automation.
-
-      - layout: left
-        title: Australian Healthcare Associates
-        sub_title: Senior Test Automation Engineer
-        caption: November 2018 – January 2019
-        quote: >
-          Developed comprehensive automation frameworks with enhanced visual testing.
-        description: |
-          - Designed and implemented Cypress automation frameworks for thorough web application testing.
-          - Enhanced frameworks to include visual comparison capabilities for desktop and mobile platforms.
-
-      - layout: left
-        title: Myer
-        link: https://www.myer.com.au
-        sub_title: Senior Test Automation Engineer
-        caption: May 2016 – February 2018
-        quote: >
-          Built robust automation frameworks ensuring comprehensive web and mobile coverage.
-        description: |
-          - Designed frameworks using BDD, Selenium, Ruby, and Appium.
-          - Integrated test suites within CI/CD pipelines for continuous reliability.
-
-      - layout: left
-        title: Outware Mobile
-        sub_title: Senior Test Analyst
-        caption: May 2014 – April 2016
-        quote: >
-          Delivered impactful mobile testing and automation solutions across various prominent clients.
-        description: |
-          - Conducted comprehensive testing for major clients including Telstra, NAB, and AFL.
-          - Automated mobile apps testing for Android and iOS using Appium.
-          - Tested backend services and middleware using JMeter.
-          - Integrated automation results with Zephyr for enhanced traceability.
-
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Bachelor of Engineering, Computer Science
-        caption: 1995 - 1999
-        sub_title: Bharadhidasan University
-        quote: >
-          Comprehensive education in Computer Science, laying a strong foundation for a successful tech career.
-        description: |
-          Gained extensive knowledge in software engineering principles, laying groundwork for career growth in automation testing and software quality assurance.
-
-  - title: A Little More About Me
-    layout: text
-    content: |
-      Alongside my passion for automation and software quality, my interests include:
-      - Photography, capturing moments through a creative lens
-      - Artificial Intelligence, exploring innovative AI-driven solutions
-      - Continuous learning and exploring new technologies
-
-      Always looking for innovative ways to streamline processes and improve software quality through robust automation.
 
 # Footer
 footer_show_references: true
@@ -174,4 +92,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
