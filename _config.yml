@@ -8,14 +8,13 @@ version: 2
 # Personal info
 name: Hari Govindarajan
 title: Lead Automation Engineer | Test Lead
-email: harisudha.g@gmail.com
-website: www.github.com/harisudha.g/resume-theme
+website: www.github.com/harigovindarajan
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username:  harisudhag
+github_username:  harigovindarajan
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -45,69 +44,123 @@ linkedin_username: harigovindarajan
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Hari and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+Hi, my name’s Hari and I’m a lead automation engineer with over 18 years of experience in automation and functional testing. I’ve specialized in testing both mobile and web applications across various industries.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+As well as leading test teams, I also have experience collaborating on system integration and ensuring quality across complex software projects. Over the years, I’ve worked at a number of companies, developing strong teamwork, leadership, and problem-solving skills.
+
+I am most skilled in: Automation Testing, Functional Testing, and Mobile & Web Applications
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: End-to-End Automation Framework
+        link: https://github.com/harigovindarajan
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: E2E Automation Framework
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/harigovindarajan
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Robust and scalable automation frameworks significantly boosting reliability and CI pipeline integration.
+        description: |
+          Engineered multiple E2E automation frameworks leveraging Playwright, Cypress, and Appium, facilitating seamless integration into continuous integration pipelines and dramatically enhancing test reliability and system scalability.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: top-middle
+        title: Performance Testing with K6
+        link: https://github.com/harigovindarajan
+        additional_links:
+          - title: Performance Testing CI Integration
+            icon: fab fa-github
+            url: https://github.com/harigovindarajan
+        quote: >
+          Efficient integration of K6 performance testing into the CI pipeline for continuous scalability.
+        description: |
+          Designed and implemented a scalable performance testing solution using K6, integrated directly into the CI pipeline, enabling continuous monitoring and optimization of system performance metrics.
+
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Invenco Pty Ltd.
+        link: https://www.invenco.com
+        sub_title: Lead Automation Engineer
+        caption: March 2024 – Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Driving quality-first testing culture with robust automation solutions and strategic planning.
+        description: |
+          - Established streamlined testing processes significantly reducing testing duration.
+          - Collaborated closely with leadership to define precise testing requirements.
+          - Led the development of automated test suites enhancing product reliability.
+          - Mentored engineering teams on best practices in automation and E2E testing.
+          - Integrated K6 performance testing within CI pipelines.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: left
+        title: PEXA
+        link: https://www.pexa.com.au
+        sub_title: Test Lead – Member Hub
+        caption: January 2019 – February 2024
+        quote: >
+          Spearheaded automation and testing strategies enhancing integration across platforms.
+        description: |
+          - Developed Playwright-based frameworks for web and API automation.
+          - Created comprehensive Splunk dashboards for enhanced monitoring.
+          - Championed shift-left testing practices and proactive API automation.
+
+      - layout: left
+        title: Australian Healthcare Associates
+        sub_title: Senior Test Automation Engineer
+        caption: November 2018 – January 2019
+        quote: >
+          Developed comprehensive automation frameworks with enhanced visual testing.
+        description: |
+          - Designed and implemented Cypress automation frameworks for thorough web application testing.
+          - Enhanced frameworks to include visual comparison capabilities for desktop and mobile platforms.
+
+      - layout: left
+        title: Myer
+        link: https://www.myer.com.au
+        sub_title: Senior Test Automation Engineer
+        caption: May 2016 – February 2018
+        quote: >
+          Built robust automation frameworks ensuring comprehensive web and mobile coverage.
+        description: |
+          - Designed frameworks using BDD, Selenium, Ruby, and Appium.
+          - Integrated test suites within CI/CD pipelines for continuous reliability.
+
+      - layout: left
+        title: Outware Mobile
+        sub_title: Senior Test Analyst
+        caption: May 2014 – April 2016
+        quote: >
+          Delivered impactful mobile testing and automation solutions across various prominent clients.
+        description: |
+          - Conducted comprehensive testing for major clients including Telstra, NAB, and AFL.
+          - Automated mobile apps testing for Android and iOS using Appium.
+          - Tested backend services and middleware using JMeter.
+          - Integrated automation results with Zephyr for enhanced traceability.
+
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Bachelor of Engineering, Computer Science
+        caption: 1995 - 1999
+        sub_title: Bharadhidasan University
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          Comprehensive education in Computer Science, laying a strong foundation for a successful tech career.
+        description: |
+          Gained extensive knowledge in software engineering principles, laying groundwork for career growth in automation testing and software quality assurance.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: |
+      Alongside my passion for automation and software quality, my interests include:
+      - Photography, capturing moments through a creative lens
+      - Artificial Intelligence, exploring innovative AI-driven solutions
+      - Continuous learning and exploring new technologies
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Always looking for innovative ways to streamline processes and improve software quality through robust automation.
 
 # Footer
 footer_show_references: true
