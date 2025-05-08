@@ -95,8 +95,7 @@ content:
           - Led the development of automated test suites enhancing product reliability.
           - Mentored engineering teams on best practices in automation and E2E testing.
           - Integrated K6 performance testing within CI pipelines.
-
-  - title: Experience
+  - title:
     layout: list
     content:
       - layout: left
