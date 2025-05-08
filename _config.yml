@@ -79,7 +79,39 @@ content:
         description: |
           Designed and implemented a scalable performance testing solution using K6, integrated directly into the CI pipeline, enabling continuous monitoring and optimization of system performance metrics.
 
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Invenco Pty Ltd.
+        link: https://www.invenco.com
+        sub_title: Lead Automation Engineer
+        caption: March 2024 – Present
+        quote: >
+          Driving quality-first testing culture with robust automation solutions and strategic planning.
+        description: |
+          - Established streamlined testing processes significantly reducing testing duration.
+          - Collaborated closely with leadership to define precise testing requirements.
+          - Led the development of automated test suites enhancing product reliability.
+          - Mentored engineering teams on best practices in automation and E2E testing.
+          - Integrated K6 performance testing within CI pipelines.
 
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Invenco Pty Ltd.
+        link: https://www.invenco.com
+        sub_title: Lead Automation Engineer
+        caption: March 2024 – Present
+        quote: >
+          Driving quality-first testing culture with robust automation solutions and strategic planning.
+        description: |
+          - Established streamlined testing processes significantly reducing testing duration.
+          - Collaborated closely with leadership to define precise testing requirements.
+          - Led the development of automated test suites enhancing product reliability.
+          - Mentored engineering teams on best practices in automation and E2E testing.
+          - Integrated K6 performance testing within CI pipelines.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
