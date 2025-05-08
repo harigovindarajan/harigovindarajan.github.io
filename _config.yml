@@ -47,9 +47,9 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Hari and I'm a lead automation engineer with over 18 years of experience in automation and functional testing. I've specialized in testing both mobile and web applications across various industries.
 
-  # As well as leading test teams, I also have experience collaborating on system integration and ensuring quality across complex software projects. Over the years, I've worked at a number of companies, developing strong teamwork, leadership, and problem-solving skills.
+  As well as leading test teams, I also have experience collaborating on system integration and ensuring quality across complex software projects. Over the years, I've worked at a number of companies, developing strong teamwork, leadership, and problem-solving skills.
 
-  I am most skilled in: Automation Testing, Functional Testing, and Mobile & Web Applications
+  I am most skilled in: <mark>Automation Testing</mark>, <mark>Functional Testing</mark>, and <mark>Mobile & Web Applications</mark>
 
 content:
   - title: Projects
