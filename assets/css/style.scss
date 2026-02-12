@@ -1,0 +1,97 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+  --ink: #1d2733;
+  --muted: #4a5c70;
+  --line: #dbe5ee;
+  --panel: #ffffff;
+}
+
+body {
+  color: var(--ink);
+  background: linear-gradient(180deg, #f6f9fc 0%, #eef3f8 100%);
+}
+
+.page-header {
+  background: linear-gradient(135deg, #0f3d4c 0%, #225b5f 55%, #2f7b74 100%);
+  padding: 2rem 1rem 1.6rem;
+}
+
+.project-name,
+.project-tagline {
+  color: #f4fbff !important;
+}
+
+.project-name {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.project-tagline {
+  font-size: 1.05rem;
+  margin-bottom: 0.8rem;
+}
+
+.page-header .btn {
+  padding: 0.55rem 0.85rem;
+  font-size: 0.95rem;
+}
+
+.main-content {
+  max-width: 980px;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: #122033;
+}
+
+.main-content p,
+.main-content li {
+  color: var(--ink);
+}
+
+.main-content > * {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.main-content .hero-profile {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0.5rem 0 1rem;
+  text-align: center;
+}
+
+.main-content .hero-profile .profile-photo {
+  width: 220px;
+  max-width: 60vw;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 50%;
+  border: 4px solid #e8f1f6;
+  box-shadow: 0 8px 30px rgba(12, 35, 52, 0.2);
+}
+
+.main-content h3 {
+  border-left: 4px solid #2f7b74;
+  padding-left: 0.6rem;
+}
+
+a {
+  color: #15546d;
+}
+
+a:hover {
+  color: #0d3c4f;
+  text-decoration: underline;
+}
