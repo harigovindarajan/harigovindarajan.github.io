@@ -7,7 +7,7 @@ title: Hari Govindarajan
 ## QA Automation Leader | AI-Driven Quality Engineering
 
 <p class="hero-profile">
-  <img src="{{ '/images/profile.png' | relative_url }}" alt="Hari Govindarajan profile photo" class="profile-photo">
+  <img src="{{ '/images/profile.jpg' | relative_url }}" alt="Hari Govindarajan profile photo" class="profile-photo">
 </p>
 
 [GitHub](https://github.com/harigovindarajan) | [LinkedIn](https://www.linkedin.com/in/harigovindarajan) | Melbourne | [harisudha.g@gmail.com](mailto:harisudha.g@gmail.com)
