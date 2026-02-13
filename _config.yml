@@ -1,12 +1,23 @@
 title: Hari Govindarajan
-description: QA Automation Leader | AI-Driven Quality Engineering
-theme: jekyll-theme-cayman
+tagline: AI-Driven Quality Engineering
+description: AI-First QA Leader | <br>AI-Driven Quality Engineering
 url: https://harigovindarajan.github.io
+baseurl: ""
 github_username: harigovindarajan
-linkedin_username: harigovindarajan
 linkedin_url: https://www.linkedin.com/in/harigovindarajan/
+x_post_url: https://x.com/HariCreates
 email: harisudha.g@gmail.com
 location: Melbourne
 
+markdown: kramdown
+permalink: pretty
+
 plugins:
   - jekyll-seo-tag
+
+exclude:
+  - AGENTS.md
+  - .playwright-cli/
+  - .bundle/
+  - vendor/
+  - sources/
