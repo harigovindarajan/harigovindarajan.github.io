@@ -3,22 +3,25 @@ layout: default
 title: Home
 ---
 
-## QA Leader and Builder
+## AI-First Quality Engineering Leader
 
-I lead quality engineering with an AI-first mindset, helping teams move faster without trading off release confidence.
+I build quality systems that help teams ship faster without compromising production confidence.
+Across 18+ years, I have led automation strategy, scaled quality practices, and introduced AI-assisted workflows that improve engineering speed, reliability, and ownership.
 
-## What I Focus On
+## What I Deliver
 
-- Playwright, API, and mobile automation architecture.
-- AI-assisted test design, generation, and maintenance.
-- AI-assisted test engineering with Claude Code + Cursor for scaffolding, flaky-test triage, and faster suite maintenance.
-- Coaching teams on scalable quality practices.
+- Reduced flaky test rates to near 0%, strengthening CI reliability and release confidence.
+- Enabled continuous delivery for high-velocity teams through a business-tier testing strategy that balances speed with production-grade quality controls.
+- Sustained high-frequency delivery with daily production releases while preserving release quality.
+- Maintained strong production outcomes with zero P1 incidents under this operating model.
 
-## Current Priorities
+## Core Expertise
 
-- Shipping production-ready AI-assisted testing workflows.
-- Improving flaky-test detection and fix loops.
-- Expanding platform-level quality observability.
+- Automation architecture across web, API, and mobile
+- CI/CD quality gates, release confidence, and risk-based validation
+- Performance and reliability testing with observability-driven feedback
+- AI-assisted test design, generation, maintenance, and triage
+- Quality leadership: coaching, governance, and cross-functional enablement
 
 ## Work With Me
 
