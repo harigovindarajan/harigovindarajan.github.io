@@ -1,0 +1,33 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ '/' | relative_url }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav" aria-label="Primary">
+      {% assign pages_list = site.pages | sort: 'title' %}
+      {% for node in pages_list %}
+        {% if node.title and node.layout == 'page' and node.nav_exclude != true %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endfor %}
+      <div class="sidebar-social" aria-label="Social links">
+        <a class="sidebar-social-link" href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+            <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.95v5.66H9.33V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.28 2.38 4.28 5.48v6.26ZM5.31 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.09 20.45H3.53V9h3.56v11.45Z"/>
+          </svg>
+        </a>
+        <a class="sidebar-social-link sidebar-social-link-x" href="{{ site.x_post_url }}" target="_blank" rel="noopener noreferrer" aria-label="X">
+          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+            <path d="M18.24 2h3.3l-7.2 8.23L22.8 22h-6.62l-5.18-6.77L5.07 22H1.76l7.7-8.8L1.2 2h6.8l4.68 6.18L18.24 2Zm-1.16 18h1.83L7.01 3.9H5.05L17.08 20Z"/>
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </div>
+</div>
