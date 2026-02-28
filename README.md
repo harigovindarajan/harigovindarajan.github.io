@@ -5,8 +5,6 @@ This site is built with Jekyll and a Hyde-style layout customized for resume and
 ## Local preview (no commit required)
 
 ```bash
-cd /Users/harigovindarajan/Downloads/harigovindarajan.github.io
-
 # One-time setup
 brew install rbenv ruby-build
 rbenv install 3.2.4
