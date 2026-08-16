@@ -1,29 +1,32 @@
-# Hari Govindarajan - Personal Site
+# harigovindarajan.github.io
 
-This site is built with Jekyll and a Hyde-style layout customized for resume and photography content.
+Personal site of Hari Govindarajan — plain static HTML, no build step, no framework.
+Each page is self-contained: styles are inline plus a small `<style>` block in the head.
 
-## Local preview (no commit required)
+- `/` — landing page (dark "Signal" layout)
+- `/resume/` — résumé, same layout, print-friendly
 
-```bash
-# One-time setup
-brew install rbenv ruby-build
-rbenv install 3.2.4
-rbenv local 3.2.4
-gem install bundler
+## Structure
 
-# Install dependencies in this repo only
-bundle config set --local path vendor/bundle
-bundle install
-
-# Run local site
-bundle exec jekyll serve --livereload
+```
+index.html            landing page
+resume/index.html     résumé page
+favicon.svg
+.nojekyll             tells GitHub Pages to skip the Jekyll build
 ```
 
-Open `http://127.0.0.1:4000`.
-
-## Quick verification
+## Preview locally
 
 ```bash
-git status --short
-git diff _config.yml public/css/custom.css
+python3 -m http.server 8123
+# open http://localhost:8123/ and http://localhost:8123/resume/
 ```
+
+## Résumé PDF
+
+Open `/resume/` and print (Save as PDF). The print stylesheet drops the side rail,
+forces dark text on white and underlines links.
+
+## Deploy
+
+Push to `main` — GitHub Pages serves the repo root directly.

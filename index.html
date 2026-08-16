@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hari Govindarajan — AI-first quality engineering</title>
+<meta name="description" content="Quality systems for teams that ship daily. Multi-agent E2E testing, AI assurance and CI/CD quality strategy — 18 years, Melbourne, Australia.">
+<link rel="canonical" href="https://harigovindarajan.github.io/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hari Govindarajan — AI-first quality engineering">
+<meta property="og:description" content="Quality systems for teams that ship daily. Multi-agent E2E testing, AI assurance and CI/CD quality strategy — 18 years, Melbourne, Australia.">
+<meta property="og:url" content="https://harigovindarajan.github.io/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@HariCreates">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #0b0e10; }
+  a { color: #8bd7bb; text-decoration: none; }
+  a:hover { color: #b6ecd7; }
+  @media (max-width: 900px) {
+    [data-r="shell"] { grid-template-columns: 1fr !important; }
+    [data-r="rail"] { position: static !important; height: auto !important; border-right: none !important; border-bottom: 1px solid #181f22 !important; padding: 26px 22px !important; gap: 20px !important; }
+    [data-r="railnav"] { flex-direction: row !important; flex-wrap: wrap !important; gap: 14px !important; align-items: baseline; }
+    [data-r="railmeta"] { margin-top: 0 !important; padding-top: 18px !important; flex-direction: row !important; flex-wrap: wrap !important; gap: 14px !important; }
+    [data-r="pad"] { padding-left: 22px !important; padding-right: 22px !important; padding-top: 40px !important; padding-bottom: 40px !important; }
+    [data-r="grid4"] { grid-template-columns: 1fr 1fr !important; }
+    [data-r="grid4"] > div { padding-left: 22px !important; padding-right: 22px !important; }
+    [data-r="grid2"], [data-r2="grid2"] { grid-template-columns: 1fr !important; gap: 30px !important; }
+    [data-r="hero"] { font-size: 30px !important; }
+    [data-r="entry"] { grid-template-columns: 1fr !important; gap: 10px !important; }
+    [data-r="rowlink"] { margin-left: 0 !important; }
+  }
+
+  @media print {
+    @page { margin: 14mm; }
+    [data-r="rail"] { display: none !important; }
+    [data-r="shell"] { grid-template-columns: 1fr !important; }
+    body, [data-r="shell"] { background: #fff !important; color: #111 !important; }
+    /* inline colours win over element selectors, so override every descendant */
+    [data-r="shell"] *, [data-r="shell"] *::before, [data-r="shell"] *::after {
+      color: #111 !important;
+      background: #fff !important;
+      border-color: #ccc !important;
+      box-shadow: none !important;
+    }
+    [data-r="shell"] a { color: #111 !important; text-decoration: underline !important; }
+    [data-r="pad"] { padding: 20px 0 24px !important; }
+    [data-r="grid4"] > div { padding: 10px 12px !important; }
+  }
+</style>
+</head>
+<body>
+<div style="background:#0b0e10; color:#c9d1d3; font-family:'JetBrains Mono',ui-monospace,monospace; min-height:100vh; display:grid; grid-template-columns:270px 1fr;" data-r="shell">
+
+  <div style="border-right:1px solid #181f22; padding:48px 30px; display:flex; flex-direction:column; gap:36px; position:sticky; top:0; height:100vh; box-sizing:border-box;" data-r="rail">
+    <div style="display:flex; flex-direction:column; gap:8px;">
+      <div style="font-size:16px; color:#f2f6f6;">Hari Govindarajan</div>
+      <div style="font-size:11px; line-height:1.8; color:#6f7d80;">Senior AI Automation Engineer<br>VicRoads · Melbourne AU</div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:11px; font-size:11px;" data-r="railnav">
+      <span style="letter-spacing:0.16em; text-transform:uppercase; color:#3f4a4d;">Index</span>
+      <a href="#systems">01 · Systems I built</a>
+      <a href="#projects" style="color:#6f7d80;">02 · Personal projects</a>
+      <a href="#record" style="color:#6f7d80;">03 · Record</a>
+      <a href="#stack" style="color:#6f7d80;">04 · Stack</a>
+      <a href="/resume/" style="color:#6f7d80;">05 · Résumé</a>
+      <a href="https://dab35rhythms.substack.com/" style="color:#6f7d80;">06 · Writing</a>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:10px; font-size:11px; margin-top:auto; padding-top:34px; border-top:1px solid #141b1e;" data-r="railmeta">
+      <a href="mailto:harisudha.g@gmail.com" style="color:#6f7d80;">harisudha.g@gmail.com</a>
+      <a href="https://github.com/harigovindarajan" style="color:#6f7d80;">github.com/harigovindarajan</a>
+      <a href="https://www.linkedin.com/in/harigovindarajan" style="color:#6f7d80;">linkedin.com/in/harigovindarajan</a>
+      <a href="https://dab35rhythms.substack.com/" style="color:#6f7d80;">dab35rhythms.substack.com</a>
+    </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; max-width:1180px;">
+
+    <div data-r="pad" style="padding:96px 64px 52px; border-bottom:1px solid #181f22;">
+      <div style="font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:#8bd7bb; margin-bottom:30px;">quality engineering · ai assurance</div>
+      <h1 data-r="hero" style="margin:0 0 28px; font-size:48px; line-height:1.16; font-weight:500; color:#f2f6f6; letter-spacing:-0.015em; max-width:22ch; text-wrap:pretty;">Agents that write, review and repair the tests.</h1>
+      <p style="margin:0; max-width:64ch; font-size:14px; line-height:1.9; color:#8b979a;">I build the quality systems behind daily releases. Eighteen years across test automation, CI/CD and AI assurance — most recently a four-agent feedback loop running against nine microservices in production.</p>
+      <div style="display:flex; gap:14px; margin-top:36px; font-size:12px;">
+        <a href="#systems" style="border:1px solid #24413a; padding:11px 18px;">See the systems →</a>
+        <a href="/resume/" style="border:1px solid #223034; padding:11px 18px; color:#8b979a;">Résumé</a>
+      </div>
+    </div>
+
+    <div data-r="grid4" style="display:grid; grid-template-columns:repeat(4,1fr); border-bottom:1px solid #181f22;">
+      <div style="padding:28px 20px 28px 64px; border-right:1px solid #141b1e;"><div style="font-size:32px; color:#f2f6f6; letter-spacing:-0.02em;">80%</div><div style="font-size:10px; line-height:1.7; color:#6f7d80; margin-top:8px;">faster E2E test<br>creation</div></div>
+      <div style="padding:28px 20px; border-right:1px solid #141b1e;"><div style="font-size:32px; color:#f2f6f6; letter-spacing:-0.02em;">95–98%</div><div style="font-size:10px; line-height:1.7; color:#6f7d80; margin-top:8px;">suite reliability,<br>lifted from ~20%</div></div>
+      <div style="padding:28px 20px; border-right:1px solid #141b1e;"><div style="font-size:32px; color:#f2f6f6; letter-spacing:-0.02em;">71</div><div style="font-size:10px; line-height:1.7; color:#6f7d80; margin-top:8px;">releases a year,<br>zero P1 incidents</div></div>
+      <div style="padding:28px 64px 28px 20px;"><div style="font-size:32px; color:#f2f6f6; letter-spacing:-0.02em;">18 yrs</div><div style="font-size:10px; line-height:1.7; color:#6f7d80; margin-top:8px;">automation, CI/CD,<br>AI assurance</div></div>
+    </div>
+
+    <div id="systems" data-r="pad" style="padding:56px 64px; border-bottom:1px solid #181f22; display:flex; flex-direction:column; gap:34px;">
+      <div style="display:flex; justify-content:space-between; align-items:baseline;">
+        <div style="font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:#3f4a4d;">01 — systems I built</div>
+        <div style="font-size:10px; color:#3f4a4d;">in production at Invenco</div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:30px 1fr; gap:20px;">
+        <span style="color:#8bd7bb; font-size:12px;">01</span>
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <div style="display:flex; gap:14px; align-items:baseline; flex-wrap:wrap;">
+            <span style="font-size:19px; color:#f2f6f6;">Multi-agent E2E test system</span>
+            <span style="font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#8bd7bb; border:1px solid #24413a; padding:3px 8px;">Invenco · production</span>
+          </div>
+          <div style="font-size:13px; line-height:1.9; color:#8b979a; max-width:66ch;">A four-agent feedback loop on Claude Code — Domain Expert, Test Writer, Reviewer, Feedback — writing, reviewing and improving E2E tests across nine microservices. It self-improves on every test run: each result feeds back as context, so the next spec it writes is better than the last.</div>
+          <div style="font-size:13px; line-height:1.9; color:#8b979a; max-width:66ch;">Alongside it: PR review agents that assess coverage in a fresh session before human review, and Aria-based semantic snapshots replacing brittle screenshot tests — seven assertions collapsed into one comparison.</div>
+          <div style="display:flex; gap:26px; flex-wrap:wrap; font-size:11px; color:#6f7d80; padding:12px 0; border-top:1px solid #141b1e; border-bottom:1px solid #141b1e; margin-top:4px;">
+            <span><span style="color:#f2f6f6;">80%</span> faster authoring</span>
+            <span><span style="color:#f2f6f6;">~20% → 95–98%</span> reliability</span>
+            <span><span style="color:#f2f6f6;">20–30 min → ~5 min</span> run time</span>
+          </div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:10px; color:#6f7d80;"><span style="border:1px solid #223034; padding:3px 7px;">Claude Code</span><span style="border:1px solid #223034; padding:3px 7px;">Playwright</span><span style="border:1px solid #223034; padding:3px 7px;">Aria snapshots</span><span style="border:1px solid #223034; padding:3px 7px;">CircleCI</span></div>
+          <a href="https://dab35rhythms.substack.com/p/we-stopped-asking-ai-to-write-tests" style="font-size:11px; margin-top:2px;">read the write-up on Substack →</a>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:30px 1fr; gap:20px; border-top:1px solid #141b1e; padding-top:30px;">
+        <span style="color:#8bd7bb; font-size:12px;">02</span>
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <div style="display:flex; gap:14px; align-items:baseline; flex-wrap:wrap;">
+            <span style="font-size:19px; color:#f2f6f6;">Tier-based test strategy</span>
+            <span style="font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#8bd7bb; border:1px solid #24413a; padding:3px 8px;">Invenco · practice</span>
+          </div>
+          <div style="font-size:13px; line-height:1.9; color:#8b979a; max-width:66ch;">AI took the dev team to roughly 4× velocity, and testing was about to become the bottleneck. So I rebuilt the strategy around business impact instead of coverage: Tier 1–3 tiers decide what gets tested, how deep, and what can ship without a gate. It removed the single-person manual-testing bottleneck and made confident production deploys routine.</div>
+          <div style="display:flex; gap:26px; flex-wrap:wrap; font-size:11px; color:#6f7d80; padding:12px 0; border-top:1px solid #141b1e; border-bottom:1px solid #141b1e; margin-top:4px;">
+            <span><span style="color:#f2f6f6;">4×</span> dev velocity absorbed</span>
+            <span><span style="color:#f2f6f6;">0</span> manual gatekeepers</span>
+            <span><span style="color:#f2f6f6;">Black Friday</span> deployed with confidence</span>
+          </div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:10px; color:#6f7d80;"><span style="border:1px solid #223034; padding:3px 7px;">Test strategy</span><span style="border:1px solid #223034; padding:3px 7px;">Risk tiers</span><span style="border:1px solid #223034; padding:3px 7px;">CI quality gates</span><span style="border:1px solid #223034; padding:3px 7px;">k6</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" data-r="pad" style="padding:56px 64px; border-bottom:1px solid #181f22; display:flex; flex-direction:column; gap:30px;">
+      <div style="display:flex; justify-content:space-between; align-items:baseline;">
+        <div style="font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:#3f4a4d;">02 — personal projects</div>
+        <a href="https://dab35rhythms.substack.com/" style="font-size:10px;">writing → dab35rhythms.substack.com</a>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:12px;">
+        <div style="display:flex; gap:14px; align-items:baseline; flex-wrap:wrap;">
+          <span style="font-size:19px; color:#f2f6f6;">AI Assurance Pipeline</span>
+        </div>
+        <div style="font-size:13px; line-height:1.9; color:#8b979a; max-width:70ch;">A RAG assistant that quotes and cites Australian Tax Office guidance, built as the test bed for assurance at every lifecycle layer: a multi-vendor eval grid (5 models × 16 tests across 5 risk categories), a locked output-template injection defence at 47/48 cells passing, Ragas retriever-vs-generator failure attribution, Langfuse observability with drift alerts and an on-call runbook, and NeMo Guardrails stress-tested with PyRIT adversarial datasets.</div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:10px; color:#6f7d80; margin-top:4px;"><span style="border:1px solid #223034; padding:3px 7px;">RAG</span><span style="border:1px solid #223034; padding:3px 7px;">promptfoo</span><span style="border:1px solid #223034; padding:3px 7px;">Ragas</span><span style="border:1px solid #223034; padding:3px 7px;">Langfuse</span><span style="border:1px solid #223034; padding:3px 7px;">NeMo Guardrails</span><span style="border:1px solid #223034; padding:3px 7px;">PyRIT</span></div>
+        <a href="https://dab35rhythms.substack.com/p/multi-vendor-llm-eval-debugging" style="font-size:11px; margin-top:2px;">read the write-up on Substack →</a>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:12px; border-top:1px solid #141b1e; padding-top:26px;">
+        <div style="display:flex; gap:14px; align-items:baseline; flex-wrap:wrap;">
+          <a href="https://github.com/harigovindarajan/playwright-guardrails" style="font-size:17px; color:#f2f6f6;">playwright-guardrails</a>
+          <span style="font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#8bd7bb; border:1px solid #24413a; padding:3px 8px;">open source</span>
+          <a href="https://github.com/harigovindarajan/playwright-guardrails" data-r="rowlink" style="font-size:11px; color:#6f7d80; margin-left:auto;">github.com/harigovindarajan/playwright-guardrails →</a>
+        </div>
+        <div style="font-size:13px; line-height:1.9; color:#8b979a; max-width:70ch;">Canonical rules, a review checklist and probe / writer / reviewer sub-agents that keep agent-generated Playwright specs consistent and checkable — the guardrail layer that makes machine-written tests reviewable by humans.</div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:10px; color:#6f7d80;"><span style="border:1px solid #223034; padding:3px 7px;">Playwright</span><span style="border:1px solid #223034; padding:3px 7px;">TypeScript</span><span style="border:1px solid #223034; padding:3px 7px;">Sub-agents</span></div>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:12px; border-top:1px solid #141b1e; padding-top:26px;">
+        <div style="display:flex; gap:14px; align-items:baseline; flex-wrap:wrap;">
+          <a href="https://github.com/harigovindarajan/loop-scaffold" style="font-size:17px; color:#f2f6f6;">loop-scaffold</a>
+          <span style="font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#8bd7bb; border:1px solid #24413a; padding:3px 8px;">open source</span>
+          <a href="https://github.com/harigovindarajan/loop-scaffold" data-r="rowlink" style="font-size:11px; color:#6f7d80; margin-left:auto;">github.com/harigovindarajan/loop-scaffold →</a>
+        </div>
+        <div style="font-size:13px; line-height:1.9; color:#8b979a; max-width:70ch;">The agent loop protocol written as docs, not a runtime — a portable single-agent linear loop any coding agent can adopt without buying into a framework.</div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:10px; color:#6f7d80;"><span style="border:1px solid #223034; padding:3px 7px;">Agent loops</span><span style="border:1px solid #223034; padding:3px 7px;">Protocol docs</span></div>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:12px; border-top:1px solid #141b1e; padding-top:26px;">
+        <div style="display:flex; gap:14px; align-items:baseline; flex-wrap:wrap;">
+          <span style="font-size:17px; color:#f2f6f6;">self-healing-loop</span>
+          <span style="font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#6f7d80; border:1px solid #223034; padding:3px 8px;">private</span>
+        </div>
+        <div style="font-size:13px; line-height:1.9; color:#8b979a; max-width:70ch;">Classifies CI failures for Playwright suites and auto-proposes locator-drift repairs as draft PRs — the repair half of the loop, generalised for any suite.</div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:10px; color:#6f7d80;"><span style="border:1px solid #223034; padding:3px 7px;">CI triage</span><span style="border:1px solid #223034; padding:3px 7px;">Locator drift</span><span style="border:1px solid #223034; padding:3px 7px;">Draft PRs</span></div>
+      </div>
+    </div>
+
+    <div data-r="pad" data-r2="grid2" style="padding:56px 64px; border-bottom:1px solid #181f22; display:grid; grid-template-columns:1fr 1fr; gap:56px;">
+      <div id="record" style="display:flex; flex-direction:column; gap:20px;">
+        <div style="font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:#3f4a4d;">03 — record</div>
+        <div style="display:flex; flex-direction:column; gap:14px; font-size:12px; line-height:1.65;">
+          <div><span style="color:#f2f6f6;">VicRoads</span> <span style="color:#3f4a4d;">2026 –</span><br><span style="color:#6f7d80;">Senior AI Automation Engineer</span></div>
+          <div><span style="color:#f2f6f6;">Invenco</span> <span style="color:#3f4a4d;">2024 – 2026</span><br><span style="color:#6f7d80;">Lead Automation Engineer</span></div>
+          <div><span style="color:#f2f6f6;">PEXA</span> <span style="color:#3f4a4d;">2019 – 2024</span><br><span style="color:#6f7d80;">Test Lead — Member Hub &amp; PEXA Plus</span></div>
+          <div><span style="color:#f2f6f6;">Medibank · AHA · Myer</span> <span style="color:#3f4a4d;">2016 – 2019</span><br><span style="color:#6f7d80;">Senior Test Automation Engineer</span></div>
+          <div><span style="color:#f2f6f6;">Outware Mobile</span> <span style="color:#3f4a4d;">2014 – 2016</span><br><span style="color:#6f7d80;">Senior Test Analyst — NAB, Telstra, AFL</span></div>
+          <div><span style="color:#f2f6f6;">Oracle</span> <span style="color:#3f4a4d;">2005 – 2014</span><br><span style="color:#6f7d80;">Principal MTS — QA</span></div>
+          <a href="/resume/" style="margin-top:6px;">full résumé →</a>
+        </div>
+      </div>
+      <div id="stack" style="display:flex; flex-direction:column; gap:20px;">
+        <div style="font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:#3f4a4d;">04 — stack</div>
+        <div style="display:flex; flex-direction:column; gap:16px; font-size:12px; line-height:1.9; color:#8b979a;">
+          <div><span style="color:#8bd7bb;">AI assurance</span><br>LLM evals · RAG faithfulness · observability · guardrails · adversarial testing · agentic workflows</div>
+          <div><span style="color:#8bd7bb;">Test automation</span><br>Playwright · Cypress · Appium · Selenium · API testing · BDD</div>
+          <div><span style="color:#8bd7bb;">Platform &amp; practice</span><br>CI/CD quality gates · k6 performance · TypeScript / Python · quality leadership</div>
+        </div>
+      </div>
+    </div>
+
+    <div data-r="pad" style="padding:72px 64px 88px; display:flex; flex-direction:column; gap:20px;">
+      <div style="font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:#3f4a4d;">05 — what's next</div>
+      <div style="font-size:26px; color:#f2f6f6; font-weight:500;">Get in touch</div>
+      <p style="margin:0; font-size:13px; line-height:1.9; color:#8b979a; max-width:60ch;">Always open to talking quality engineering, AI assurance, or durable test systems for high-velocity teams.</p>
+      <a href="mailto:harisudha.g@gmail.com" style="font-size:12px; border:1px solid #24413a; padding:12px 20px; align-self:flex-start; margin-top:8px;">Say hello →</a>
+      <div style="display:flex; gap:22px; font-size:11px; color:#6f7d80; margin-top:36px; padding-top:22px; border-top:1px solid #141b1e;">
+        <a href="https://github.com/harigovindarajan" style="color:#6f7d80;">GitHub</a>
+        <a href="https://www.linkedin.com/in/harigovindarajan" style="color:#6f7d80;">LinkedIn</a>
+        <a href="https://x.com/HariCreates" style="color:#6f7d80;">X</a>
+        <a href="https://dab35rhythms.substack.com/" style="color:#6f7d80;">Substack</a>
+        <span style="margin-left:auto; color:#3f4a4d;">harigovindarajan.github.io</span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
